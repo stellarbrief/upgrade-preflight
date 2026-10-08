@@ -49,6 +49,7 @@ Asserting specific instruction counts. Changing the diff engine or thresholds.
 
 ### 2. Explain the instruction-count drop from protocol 27 to 28
 **Complexity:** Medium (investigation)
+**Posted on GitHub:** #17
 
 **Description**
 The first real 27 to 28 run showed instructions down 5.8% to 8.9% in every scenario. The
@@ -114,6 +115,7 @@ Unit tests (`npm test`), plus a real run: `node dist/cli/index.js run --protocol
 
 ### 4. Add a real-world contract corpus
 **Complexity:** Medium
+**Posted on GitHub:** #16
 
 **Description**
 The four example contracts are tiny, so the first real result says little about real contracts.
